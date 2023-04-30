@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "app_name": "wschat-function",
+  "api_gateway_endpoint_type": "REGIONAL",
+  "xray": true,
+  "environment_variable": {
+    "POWERTOOLS_SERVICE_NAME": "wschat-function"
+  },
+  "stages": {
+    "dev": {
+      "autogen_policy": true,
+      "api_gateway_stage": "api",
+      "environment_variables": {
+        "CONNECTIONS_TABLE_NAME": "",
+        "MESSAGES_TABLE_NAME": ""
+      }
+    }
+  }
+}

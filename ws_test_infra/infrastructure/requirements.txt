@@ -1,0 +1,2 @@
+aws-cdk-lib>2.0,<3.0
+aws-xray-sdk==2.12.0
